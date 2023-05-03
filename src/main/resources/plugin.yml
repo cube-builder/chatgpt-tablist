@@ -1,0 +1,14 @@
+name: chatgpt-tablist
+version: '${project.version}'
+main: me.cubebuilder.chatgpttablist.Chatgpt_tablist
+api-version: 1.19
+commands:
+  tablistreload:
+    description: Reload the tablist configuration
+    permission: mytablistplugin.reload
+    usage: /tablistreload
+
+permissions:
+  mytablistplugin.reload:
+    description: Allows the player to reload the tablist configuration
+    default: op
